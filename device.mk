@@ -129,11 +129,12 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@6.0-impl:32 \
-    android.hardware.audio.effect@6.0-impl:32 \
+    android.hardware.audio@5.0-impl \
     android.hardware.audio.service \
-    android.hardware.soundtrigger@2.1-impl:32 \
-    audio.primary.msm8953:32 \
+    android.hardware.audio.effect@5.0-impl \
+    android.hardware.bluetooth.audio-impl \
+    android.hardware.soundtrigger@2.2-impl \
+    audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
     libaudiopreprocessing \
