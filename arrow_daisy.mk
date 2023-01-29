@@ -22,10 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
 # Inherit some common AEX stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
-
-# Inherit some prebuilts
-$(call inherit-product, vendor/custom/prebuilts/config.mk) 
+$(call inherit-product, vendor/arrow/config/common.mk) 
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
