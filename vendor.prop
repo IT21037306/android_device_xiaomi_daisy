@@ -95,7 +95,7 @@ vendor.display.enable_default_color_mode=1
 vendor.display.disable_skip_validate=1
 vendor.gralloc.enable_fb_ubwc=1
 debug.composition.type=c2d
-debug.hwui.renderer=skiagl
+debug.hwui.renderer=opengl
 debug.hwui.use_buffer_age=false
 vendor.display.use_smooth_motion=1
 
