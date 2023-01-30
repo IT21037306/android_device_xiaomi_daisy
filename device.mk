@@ -148,7 +148,6 @@ PRODUCT_PACKAGES += \
 
 # A2DP
 PRODUCT_PACKAGES += \
-    audio.a2dp.default \
     audio.bluetooth.default \
     android.hardware.bluetooth.audio@2.1-impl \
     com.qualcomm.qti.bluetooth_audio@1.0.vendor \
