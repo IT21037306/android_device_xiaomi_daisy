@@ -41,7 +41,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="daisy"
 
 # Arrow maintainer
-DEVICE_MAINTAINER := acras
+DEVICE_MAINTAINER := Ahamed_Fahmi
 
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
