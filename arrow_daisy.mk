@@ -40,8 +40,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="daisy" \
     PRODUCT_NAME="daisy"
 
-# Arrow maintainer
+# Arrow Identifiers
 DEVICE_MAINTAINER := Ahamed_Fahmi
+ARROW_GAPPS := true
 
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
