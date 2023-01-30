@@ -98,6 +98,10 @@ debug.composition.type=c2d
 debug.hwui.renderer=opengl
 vendor.display.use_smooth_motion=1
 
+# HWUI
+debug.hwui.skia_atrace_enabled=false
+
+
 # DPM
 persist.vendor.dpmhalservice.enable=1
 
