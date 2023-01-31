@@ -117,10 +117,6 @@ persist.vendor.dpmhalservice.enable=1
 # Frp
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
-# Graphics
-ro.hardware.egl=adreno
-ro.hardware.vulkan=adreno
-
 # Media
 debug.stagefright.omx_default_rank=0
 debug.stagefright.omx_default_rank.sw-audio=1
