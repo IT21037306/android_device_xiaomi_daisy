@@ -150,7 +150,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     android.hardware.bluetooth.audio@2.1-impl \
-    com.qualcomm.qti.bluetooth_audio@1.0.vendor \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor \
     vendor.qti.hardware.bluetooth_dun@1.0.vendor
 
@@ -202,7 +201,6 @@ PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor \
     android.hardware.graphics.allocator@2.0-impl:64 \
     android.hardware.graphics.allocator@2.0-service \
-    android.hardware.graphics.composer@2.1-impl:64 \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     android.hardware.memtrack@1.0-impl \
@@ -212,12 +210,9 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8953 \
     memtrack.msm8953 \
     libdisplayconfig \
-    libdisplayconfig.vendor \
     libtinyxml \
     libjson \
-    libjson.vendor \
     disable_configstore \
-    libgenlock \
     libqdMetaData
 
 # Device-specific settings
@@ -232,24 +227,14 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:64 \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.4-service.clearkey \
-    android.hardware.drm@1.2-service.widevine \
     android.hardware.drm@1.1.vendor \
     android.hardware.drm@1.2.vendor \
     android.hardware.drm@1.3.vendor \
     android.hardware.drm@1.4.vendor
 
-# Ebtables
-PRODUCT_PACKAGES += \
-    libebtc
-
 # Fingerprint feature
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.2-service.xiaomi_daisy
-
-# FM
-PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -268,9 +253,7 @@ PRODUCT_PACKAGES += \
 
 # GNSS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.2.vendor \
     android.hardware.gnss@2.1.vendor \
-    android.hardware.gnss@3.0.vendor
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -332,10 +315,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.daisy
 
-# MatLog app
-PRODUCT_PACKAGES += \
-    MatLog
-
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
@@ -370,7 +349,6 @@ PRODUCT_PACKAGES += \
     libOmxCore \
     libOmxEvrcEnc \
     libOmxQcelp13Enc \
-    libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw \
@@ -439,7 +417,6 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.msm.usb.configfs.rc \
     init.goodix.sh \
-    init.qcom.bt.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.rc \
@@ -464,7 +441,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0.vendor \
     android.hardware.secure_element@1.2.vendor \
     librmnetctl \
-    libcnefeatureconfig \
     libxml2 \
     CarrierConfigOverlay
 
@@ -512,10 +488,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
 
-# ThermalController app
-PRODUCT_PACKAGES += \
-    ThermalController
-
 # USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.daisy
@@ -529,7 +501,6 @@ PRODUCT_COPY_FILES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    libicuuc.vendor \
     libstdc++.vendor \
     vndk_package
 
@@ -543,10 +514,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     libcld80211 \
-    libqsap_sdk \
     libwpa_client \
     hostapd \
-    dhcpcd.conf \
     wificond \
     wpa_supplicant \
     wpa_supplicant.conf \
