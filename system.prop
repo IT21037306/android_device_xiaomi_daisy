@@ -100,8 +100,10 @@ persist.radio.jbims=0
 persist.radio.VT_ENABLE=1
 persist.radio.volte.dan_support=true
 persist.radio.videopause.mode=1
+persist.sys.radio.force_lte_ca=true
 ril.subscription.types=NV,RUIM
 rild.libargs=-d/dev/smd0
+
 
 # SD Card
 persist.fuse_sdcard=true
