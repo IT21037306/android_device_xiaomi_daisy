@@ -558,8 +558,17 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
 
-    <carrier_config mcc="286" mnc="02">
+
+    <carrier_config mcc="286" mnc="01">
+       <boolean name="carrier_volte_available_bool" value="true" />
+       <boolean name="carrier_vt_available_bool" value="true" />
+    </carrier_config>
+     <carrier_config mcc="286" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="286" mnc="03">
+       <boolean name="carrier_volte_available_bool" value="true" />
+       <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="404" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -2342,10 +2351,36 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
 
+<!--Sri Lankan VoLTE Config -->
+    <carrier_config mcc="413" mnc="01">
+       <boolean name="carrier_volte_available_bool" value="true" />
+       <boolean name="carrier_vt_available_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="413" mnc="02">
+       <boolean name="carrier_volte_available_bool" value="true" />
+       <boolean name="carrier_vt_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="413" mnc="04">
+       <boolean name="carrier_volte_available_bool" value="true" />
+       <boolean name="carrier_vt_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="413" mnc="05">
+       <boolean name="carrier_volte_available_bool" value="true" />
+       <boolean name="carrier_vt_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="413" mnc="09">
+       <boolean name="carrier_volte_available_bool" value="true" />
+       <boolean name="carrier_vt_available_bool" value="true" />
+    </carrier_config>
+
     <carrier_config mcc="502" mnc="18">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
+
+
+
 
     <carrier_config>
         <string-array name="ratchet_rat_families" num="3">
